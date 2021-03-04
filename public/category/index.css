@@ -1,0 +1,150 @@
+/* 
+	响应式布局中的px边框问题？
+	用代码判断识别当前设备的dpr，进而更改边框的粗细
+ */
+
+/* 弹性容器 */
+/* 
+ 主轴：弹性项目在弹性容器内会沿主轴摆放
+ 交叉轴：永远与主轴垂直
+ */
+.page-header {
+	width: 100%;
+	height: 8.395802vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.page-header img {
+	width: 36px;
+	height: 28px;
+	margin-left: 12px;
+}
+
+.search {
+	width: 100%;
+	height: 4.797601vh;
+	background-color: white;
+	flex: 1;
+	margin-left: 10px;
+	border-radius: 6vw;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	background-color: #D0D0D0;
+}
+
+.icon-search {
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+.page-container {
+	height: 100%;
+	display: flex;
+	/* 列 */
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* 弹性项目 */
+/* .page-header {
+	height: 12vw;
+	background: #0066EE;
+	flex-shrink: 0;
+} */
+
+.page-content {
+	flex-grow: 1;
+	/* 弹性项目，虽然没有显示的设置高度，但是align-self表示我在交叉轴方向
+	（垂直方向）的距离是参照我的弹性容器align-self的取值，
+	相当于隐式的表达出了高度限定*/
+	/* align-self: inherit; */
+	display: flex;
+	/* 默认拉伸 */
+	/* align-items: stretch; */
+	border-bottom: 1px solid #b0b0b0;
+	border-top: 1px solid #b0b0b0;
+	overflow: hidden;
+}
+
+.page-content_left {
+	width: 26.666666vw;
+	flex-shrink: 0;
+	overflow: auto;
+}
+
+.page-content_right {
+	flex-grow: 1;
+	border-left: 1px solid #B0B0B0;
+	background-color: #EEEEEE;
+	overflow: auto;
+}
+
+.list-main li {
+	line-height: 50px;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+
+.page-footer {
+	height: 13.333333vw;
+	flex-shrink: 0;
+}
+
+.list-sub,
+.empty {
+	display: none;
+}
+
+.list-sub.show,
+.empty.show {
+	display: block;
+}
+
+.active {
+	background: red;
+	padding: 3px 9px;
+	border-radius: 10px;
+	color: white;
+}
+
+.avatar {
+	width: 273px;
+	height: 130px;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+.list-sub {
+	width: 100%;
+	height: 100%;
+}
+
+.list-sub img {
+	width: 76px;
+	height: 76px;
+}
+
+.list-sub li {
+	width: calc((100% / 2) - 8px);
+	float: left;
+	margin: 0 5px;
+	margin-bottom: 5px;
+	background-color: white;
+}
+
+.list-sub li:nth-child(even) {
+	margin-left: 0;
+}
+
+.list-sub li a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

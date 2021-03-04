@@ -1,0 +1,68 @@
+.address-page {
+	height: 100%;
+	background: #F4F4F4;
+}
+
+.address-header {
+	height: 45px;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+}
+
+.address-header img {
+	width: 39px;
+	height: 48px;
+	display: block;
+}
+
+.address-title {
+	flex-grow: 1;
+	margin-right: 45px;
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+}
+
+.address-list {
+	height: 52px;
+	background: white;
+	display: flex;
+	padding: 0 20px;
+	align-items: center;
+	box-sizing: border-box;
+	border-bottom: 2px solid #ccc;
+}
+
+.address-list>input {
+	height: 18px;
+	flex: 1;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+
+.list-left {
+	height: 18px;
+	width: 80px;
+	font-size: 13px;
+	color: #333333;
+}
+
+.save {
+	width: 80px;
+	line-height: 36px;
+	margin: 0 auto;
+	margin-top: 30px;
+	font-size: 14px;
+	color: white;
+	background: #845F3F;
+	text-align: center;
+}
+.delet{
+	line-height: 52px;
+	background: white;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	color: red;
+}

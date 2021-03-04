@@ -1,0 +1,167 @@
+.page {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	background-color: #F4F4F4;
+}
+
+.header {
+	flex-shrink: 0;
+}
+
+.title {
+	height: 6.596500vh;
+	display: flex;
+	align-items: center;
+}
+
+.up-title {
+	flex: 1;
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+.icon-back1,
+.icon-search {
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+.tab {
+	height: 5.997001vh;
+}
+
+.tab li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	color: #666666;
+	font-size: 13px;
+}
+
+.tab li span {
+	padding: 0 10px;
+}
+
+.content {
+	flex: 1;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.logo {
+	margin: 10px;
+	padding: 0 10px;
+	height: 6.596701vh;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.logo img {
+	height: 3.148425vh;
+}
+
+.goods {}
+
+.goods li {
+	margin: 0 10px 10px;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+
+.goods li h2 {
+	height: 6.596500vh;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	justify-content: space-between;
+}
+
+.goods li h2 img{
+	width: 25px;
+}
+.explain{
+	flex: 1;
+	margin-left: 10px;
+}
+.cancel{
+	font-weight: normal;
+	color: #999999;
+}
+
+.goods-data{
+	padding: 12px 10px;
+	height: 13.493193vh;
+	display: flex;
+}
+.goods-data img{
+	height: 100%;
+}
+.introduce{
+	flex: 1;
+	margin-left: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.name{
+	font-size: 15px;
+	color: #333333;
+}
+
+.num{
+	padding-left: 10px;
+	font-size: 13px;
+	color: #999999;
+}
+.goods-amount{
+	display: block;
+	text-align: right;
+}
+.end{
+	padding: 10px;
+	font-size: 13px;
+	color: #333;
+	text-align: right;
+}
+.end em{
+	font-style: normal;
+}
+.price{
+	font-size: 16px;
+	color: #151515;
+}
+.agin{
+	height: 7.196100vh;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 14px;
+}
+
+.buy{
+	padding: 5px 10px;
+	border: 1px solid #C52929;
+	border-radius: 15px;
+}
+
+
+
+
+
+/*添加的值*/
+.color {
+	background: linear-gradient(to right, rgb(240, 206, 123), rgb(221, 177, 81));
+	color: white;
+	border-radius: 5px;
+}

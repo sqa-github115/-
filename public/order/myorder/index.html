@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="/public/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="/public/fonts/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="/public/layer_mobile/layer.css" />
+		<link rel="stylesheet" type="text/css" href="myorder.css" />
+		<meta charset="utf-8">
+		<title>我的订单</title>
+	</head>
+	<body>
+		<div class="page">
+			<div class="header">
+				<div class="title">
+					<i class="iconfont icon-back1"></i>
+					<div class="up-title">
+						我的订单
+					</div>
+					<i class="iconfont icon-search"></i>
+				</div>
+				<ul class="tab clearfix">
+					<li data-id="/order/list_all">
+						<span class="color">
+							全部
+						</span>
+					</li>
+					<li data-id="/order/list_unpay">
+						<span>
+							待付款
+						</span>
+					</li>
+					<li data-id="/order/list_pay">
+						<span>
+							待收货
+						</span>
+					</li>
+					<li>
+						<span>
+							退款订单
+						</span>
+					</li>
+					<li>
+						<span>
+							已收货
+						</span>
+					</li>
+				</ul>
+			</div>
+			<div class="content hide-scroll">
+				<div class="logo">
+					<img src="../img/log1.png">
+				</div>
+				<ul class="goods">
+					<!-- <li>
+						<h2>
+							<img src="../img/logo_xiaomi.png">
+							<span class="explain">小米自营</span>
+							<span class="cancel">已取消</span>
+						</h2>
+						<div class="goods-data_list">
+							<div class="goods-data">
+								<img src="../img/ia_200000009.png">
+								<div class="introduce">
+									<p class="name">小米电视4A 70英寸 黑色 70英寸</p>
+									<p class="num">
+										<span class="goods-price">3999</span>
+										<span class="goods-amount">x1</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="end">
+							<span>共1件商品,</span>
+							<span>总金额</span>
+							<em>￥</em><span class="price">3999</span>
+						</div>
+						<div class="agin">
+							<div class="del">
+								删除订单
+							</div>
+							<div class="buy">
+								再次购买
+							</div>
+						</div>
+					</li> -->
+				</ul>
+			</div>
+		</div>
+
+
+		<script src="/public/js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/js/jquery-extend.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/public/layer_mobile/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="myorder.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

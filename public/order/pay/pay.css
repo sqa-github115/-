@@ -1,0 +1,120 @@
+.pay-page {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #F4F4F4;
+}
+
+.header {
+	height: 6.596701vh;
+	line-height: 6.596701vh;
+	position: relative;
+	text-align: center;
+	font-size: 16px;
+	color: #333333;
+	flex-shrink: 0;
+}
+
+.icon-back1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	left: 10px;
+	font-size: 20px;
+}
+
+.money {
+	height: 9.445277vh;
+	padding-top: 12px;
+	flex-shrink: 0;
+}
+
+.money-item {
+	display: flex;
+	justify-content: center;
+	font-size: 28px;
+	color: #d71d1d;
+}
+
+.money-item span {
+	font-size: 15px;
+	height: 36px;
+	line-height: 45px;
+}
+
+.pay-time {
+	display: flex;
+	justify-content: center;
+	color: #d71d1d;
+	font-size: 12px;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	flex: 1;
+	padding: 10px 10px 0 10px;
+	box-sizing: border-box;
+}
+.pay-way{
+	padding-right: 12px;
+	box-sizing: border-box;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.pay-way img{
+	width: 7.9959829vw;
+	height: 7.9959829vw;
+	margin-left: 10px;
+}
+
+.pay-way_list,.pay-way_list1{
+	height: 8.995502vh;
+	display: flex;
+	align-items: center;
+}
+.pay-way_list p,.pay-way_list1 p{
+	flex: 1;
+	margin-left: 10px;
+	font-size: 14px;
+	color: #333333;
+}
+
+.checkAll {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: 0.5px solid #CCCCCC;
+}
+.icon-Checkcontrol{
+	color: white;
+}
+.checked{
+	background: #B4731F;
+}
+
+
+
+
+
+
+.footer {
+	height: 100%;
+	width: 100%;
+	height: 5.697157vh;
+	padding: 8px 0;
+	flex-shrink: 0;
+}
+
+.payment {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	background:linear-gradient(to right,rgb(241, 83, 56),rgb(223, 20, 15));
+	border-radius: 6vw;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	line-height: 5.697157vh;
+}

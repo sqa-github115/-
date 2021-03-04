@@ -1,0 +1,106 @@
+.address-page{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.address-header{
+	height: 45px;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+}
+.address-header img{
+	width: 39px;
+	height: 48px;
+	display: block;
+}
+.address-title{
+	flex-grow: 1;
+	margin-right: 45px;
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+}
+.address-content{
+	flex: 1;
+	background: #F4F4F4;
+}
+.address-hint{
+	height: 341px;
+	padding-top: 40px;
+	padding-bottom: 176px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	display: none;
+}
+.address-hint img{
+	width: 90px;
+	height: 90px;
+}
+.address-txt{
+	padding-top: 10px;
+	font-size: 12px;
+	color: #666666;
+}
+.address-footer{
+	flex-shrink: 0;
+}
+.address-create{
+	font-size: 14px;
+	color: #845F3F;
+	margin: 15px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	line-height: 40px;
+	text-align: center;
+}
+.address-box{
+	padding: 20px;
+	background: white;
+	border-bottom: 1px solid #B0B0B0;
+	display: none;
+}
+.box1{
+	padding-bottom: 10px;
+	/* border-bottom: 1px solid #B0B0B0; */
+	margin-bottom: 5px;
+}
+.address-info{
+	display: flex;
+	width: 80%;
+	margin-bottom: 5px;
+	justify-content: space-between;
+}
+
+.name,.tel{
+	font-size: 15px;
+	color: #333333;
+}
+.address{
+	font-size: 12px;
+	color: #666666;
+}
+.edit {
+	margin-top: 5px;
+}
+.edit a img{
+	width: 17px;
+	height: 17px;
+}
+.the-address{
+	display: none;
+	float: right;
+	font-size: 15px;
+	border: 1px solid #000000;
+	color: #000000;
+}
+.the-address1{
+	display: none;
+	float: right;
+	font-size: 15px;
+	color: red;
+	border: 1px solid #000000;
+}
+

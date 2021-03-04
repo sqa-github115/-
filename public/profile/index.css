@@ -1,0 +1,138 @@
+body {
+	color: #333;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.tp{
+	flex-grow: 1;
+	background-color: #F3F3F3;
+	height: 100%;
+}
+.header {
+	height: 99px;
+	background-image: url(ia_100000025.png);
+	padding-right: 20px;
+	border-bottom:1px solid #845F3F ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo{
+	padding-left: 25px;
+}
+.logo img{
+	width: 60px;
+	height: 60px;
+}
+.please-log{
+	padding-left: 20px;
+	color: #FFFFFF;
+	flex: 1;
+}
+.please-log a{
+	color: white;
+}
+.header-arrow img{
+	width: 18px;
+	height: 18px;
+}
+
+.line {
+	background-color: rgb(244, 244, 244);
+	border-width: 0px;
+	height: 5px;
+}
+
+.bottom-line {
+	border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.my-order {
+	line-height: 40px;
+	padding: 0 10px 0 20px;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+}
+
+.my-order img {
+	width: 15px;
+	height: 15px;
+}
+
+.order-details {
+	height: 70px;
+	background-color: white;
+}
+
+.order-details ul li img {
+	width: 40px;
+	height: 40px;
+}
+
+.order-details ul {
+	height: 100%;
+}
+
+.order-details ul li {
+	height: 100%;
+	float: left;
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.line1 {
+	background-color: rgb(244, 244, 244);
+	border-width: 0px;
+	height: 5px;
+}
+.content{
+	background-color: white;
+}
+.item{
+	height: 49px;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 10px;
+}
+.writing{
+	flex: 1;
+	text-align: left;
+}
+.item>img{
+	width: 38px;
+	height: 38px;
+	padding-left: 15px;
+}
+.right-arrow img{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+.tp .btn {
+	text-align: center;
+	margin-top: 5px;
+	display: none;
+}
+.tp .btn span {
+	display: inline-block;
+	height: 45px;
+	width: 100px;
+	border:1px solid rgb(178, 178, 178);
+	line-height: 45px;
+}
+
+.box .footer{
+	height: 13.333333vw;
+}
